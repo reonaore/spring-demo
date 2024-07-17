@@ -1,0 +1,5 @@
+CREATE TABLE todos (
+    id UUID PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    is_done BOOLEAN NOT NULL
+);
